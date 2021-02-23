@@ -5,7 +5,7 @@
       location = "group:iBeer.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:SDKNetwork/SDKNetwork.xcodeproj">
+      location = "group:SDKNetwork/SDKNetwork/SDKNetwork.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

@@ -7,10 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17CC00966494310AED165DA1 /* libPods-iBeer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7D18A71A7267E8FA027EC7 /* libPods-iBeer.a */; };
+		2266B5F925E498140008F1D9 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B5F825E498130008F1D9 /* Observable.swift */; };
+		2266B63425E4A5800008F1D9 /* BeerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B62B25E4A5800008F1D9 /* BeerCoordinator.swift */; };
+		2266B63525E4A5800008F1D9 /* BeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B62D25E4A5800008F1D9 /* BeerModel.swift */; };
+		2266B63625E4A5800008F1D9 /* BeerListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2266B62F25E4A5800008F1D9 /* BeerListViewController.xib */; };
+		2266B63725E4A5800008F1D9 /* BeerItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B63125E4A5800008F1D9 /* BeerItemTableViewCell.swift */; };
+		2266B63825E4A5800008F1D9 /* BeerItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2266B63225E4A5800008F1D9 /* BeerItemTableViewCell.xib */; };
+		2266B63925E4A5800008F1D9 /* BeerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B63325E4A5800008F1D9 /* BeerListViewController.swift */; };
+		2266B63E25E4A5BC0008F1D9 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B63D25E4A5BC0008F1D9 /* AppCoordinator.swift */; };
+		2266B64425E4A60C0008F1D9 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B64225E4A60C0008F1D9 /* UITableView+Extensions.swift */; };
+		2266B64525E4A60C0008F1D9 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B64325E4A60C0008F1D9 /* NSObject+Extensions.swift */; };
+		2266B64E25E4A6490008F1D9 /* BeerListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B64D25E4A6490008F1D9 /* BeerListService.swift */; };
+		2266B65625E4A6760008F1D9 /* BeerListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B65525E4A6760008F1D9 /* BeerListProvider.swift */; };
+		2266B65C25E4A71E0008F1D9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B65B25E4A71E0008F1D9 /* Config.swift */; };
+		2266B66925E4ABED0008F1D9 /* BeerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B66825E4ABED0008F1D9 /* BeerListViewModel.swift */; };
+		2266B67325E4B8650008F1D9 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2266B67225E4B8650008F1D9 /* UIImage+Extensions.swift */; };
 		22BC955425E46B520056D843 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC955325E46B520056D843 /* AppDelegate.swift */; };
 		22BC955625E46B520056D843 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC955525E46B520056D843 /* SceneDelegate.swift */; };
-		22BC955825E46B520056D843 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BC955725E46B520056D843 /* ViewController.swift */; };
-		22BC955B25E46B520056D843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BC955925E46B520056D843 /* Main.storyboard */; };
 		22BC955E25E46B520056D843 /* iBeer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22BC955C25E46B520056D843 /* iBeer.xcdatamodeld */; };
 		22BC956025E46B530056D843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BC955F25E46B530056D843 /* Assets.xcassets */; };
 		22BC956325E46B530056D843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BC956125E46B530056D843 /* LaunchScreen.storyboard */; };
@@ -36,11 +50,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2266B5F825E498130008F1D9 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		2266B62B25E4A5800008F1D9 /* BeerCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerCoordinator.swift; sourceTree = "<group>"; };
+		2266B62D25E4A5800008F1D9 /* BeerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerModel.swift; sourceTree = "<group>"; };
+		2266B62F25E4A5800008F1D9 /* BeerListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeerListViewController.xib; sourceTree = "<group>"; };
+		2266B63125E4A5800008F1D9 /* BeerItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerItemTableViewCell.swift; sourceTree = "<group>"; };
+		2266B63225E4A5800008F1D9 /* BeerItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeerItemTableViewCell.xib; sourceTree = "<group>"; };
+		2266B63325E4A5800008F1D9 /* BeerListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerListViewController.swift; sourceTree = "<group>"; };
+		2266B63D25E4A5BC0008F1D9 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		2266B64225E4A60C0008F1D9 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		2266B64325E4A60C0008F1D9 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
+		2266B64D25E4A6490008F1D9 /* BeerListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListService.swift; sourceTree = "<group>"; };
+		2266B65525E4A6760008F1D9 /* BeerListProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListProvider.swift; sourceTree = "<group>"; };
+		2266B65B25E4A71E0008F1D9 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		2266B66825E4ABED0008F1D9 /* BeerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewModel.swift; sourceTree = "<group>"; };
+		2266B67225E4B8650008F1D9 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		22BC955025E46B520056D843 /* iBeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BC955325E46B520056D843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22BC955525E46B520056D843 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		22BC955725E46B520056D843 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22BC955A25E46B520056D843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22BC955D25E46B520056D843 /* iBeer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iBeer.xcdatamodel; sourceTree = "<group>"; };
 		22BC955F25E46B530056D843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22BC956225E46B530056D843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +78,9 @@
 		22BC957425E46B530056D843 /* iBeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22BC957825E46B530056D843 /* iBeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeerUITests.swift; sourceTree = "<group>"; };
 		22BC957A25E46B530056D843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7D18A71A7267E8FA027EC7 /* libPods-iBeer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBeer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495FBF037436A25F4B9875C9 /* Pods-iBeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBeer.release.xcconfig"; path = "Target Support Files/Pods-iBeer/Pods-iBeer.release.xcconfig"; sourceTree = "<group>"; };
+		DB980D6B8E03C00E74AD984B /* Pods-iBeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBeer.debug.xcconfig"; path = "Target Support Files/Pods-iBeer/Pods-iBeer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CC00966494310AED165DA1 /* libPods-iBeer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +109,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2266B5F725E498050008F1D9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2266B64325E4A60C0008F1D9 /* NSObject+Extensions.swift */,
+				2266B64225E4A60C0008F1D9 /* UITableView+Extensions.swift */,
+				2266B5F825E498130008F1D9 /* Observable.swift */,
+				2266B67225E4B8650008F1D9 /* UIImage+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2266B60B25E4A4810008F1D9 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				22BC955C25E46B520056D843 /* iBeer.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2266B60C25E4A4A30008F1D9 /* AppData */ = {
+			isa = PBXGroup;
+			children = (
+				2266B63D25E4A5BC0008F1D9 /* AppCoordinator.swift */,
+				22BC955325E46B520056D843 /* AppDelegate.swift */,
+				22BC955525E46B520056D843 /* SceneDelegate.swift */,
+				22BC955F25E46B530056D843 /* Assets.xcassets */,
+				22BC956125E46B530056D843 /* LaunchScreen.storyboard */,
+				22BC956425E46B530056D843 /* Info.plist */,
+			);
+			path = AppData;
+			sourceTree = "<group>";
+		};
+		2266B62825E4A5800008F1D9 /* AppViews */ = {
+			isa = PBXGroup;
+			children = (
+				2266B65A25E4A7160008F1D9 /* Config */,
+				2266B64C25E4A6370008F1D9 /* Service */,
+				2266B62925E4A5800008F1D9 /* ViewModel */,
+				2266B62A25E4A5800008F1D9 /* Coordinator */,
+				2266B62C25E4A5800008F1D9 /* Model */,
+				2266B62E25E4A5800008F1D9 /* View */,
+			);
+			path = AppViews;
+			sourceTree = "<group>";
+		};
+		2266B62925E4A5800008F1D9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2266B66825E4ABED0008F1D9 /* BeerListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2266B62A25E4A5800008F1D9 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2266B62B25E4A5800008F1D9 /* BeerCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2266B62C25E4A5800008F1D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2266B62D25E4A5800008F1D9 /* BeerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2266B62E25E4A5800008F1D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2266B62F25E4A5800008F1D9 /* BeerListViewController.xib */,
+				2266B63325E4A5800008F1D9 /* BeerListViewController.swift */,
+				2266B63025E4A5800008F1D9 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2266B63025E4A5800008F1D9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2266B63125E4A5800008F1D9 /* BeerItemTableViewCell.swift */,
+				2266B63225E4A5800008F1D9 /* BeerItemTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		2266B64C25E4A6370008F1D9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2266B64D25E4A6490008F1D9 /* BeerListService.swift */,
+				2266B65525E4A6760008F1D9 /* BeerListProvider.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2266B65A25E4A7160008F1D9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2266B65B25E4A71E0008F1D9 /* Config.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		22BC954725E46B520056D843 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +221,8 @@
 				22BC956C25E46B530056D843 /* iBeerTests */,
 				22BC957725E46B530056D843 /* iBeerUITests */,
 				22BC955125E46B520056D843 /* Products */,
+				A8AC64176228C84C71F50FE7 /* Pods */,
+				6B2E4CA161CB03A49B6C5F57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +239,10 @@
 		22BC955225E46B520056D843 /* iBeer */ = {
 			isa = PBXGroup;
 			children = (
-				22BC955325E46B520056D843 /* AppDelegate.swift */,
-				22BC955525E46B520056D843 /* SceneDelegate.swift */,
-				22BC955725E46B520056D843 /* ViewController.swift */,
-				22BC955925E46B520056D843 /* Main.storyboard */,
-				22BC955F25E46B530056D843 /* Assets.xcassets */,
-				22BC956125E46B530056D843 /* LaunchScreen.storyboard */,
-				22BC956425E46B530056D843 /* Info.plist */,
-				22BC955C25E46B520056D843 /* iBeer.xcdatamodeld */,
+				2266B62825E4A5800008F1D9 /* AppViews */,
+				2266B60C25E4A4A30008F1D9 /* AppData */,
+				2266B60B25E4A4810008F1D9 /* CoreData */,
+				2266B5F725E498050008F1D9 /* Helpers */,
 			);
 			path = iBeer;
 			sourceTree = "<group>";
@@ -131,6 +265,23 @@
 			path = iBeerUITests;
 			sourceTree = "<group>";
 		};
+		6B2E4CA161CB03A49B6C5F57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C7D18A71A7267E8FA027EC7 /* libPods-iBeer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8AC64176228C84C71F50FE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB980D6B8E03C00E74AD984B /* Pods-iBeer.debug.xcconfig */,
+				495FBF037436A25F4B9875C9 /* Pods-iBeer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +289,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22BC957D25E46B530056D843 /* Build configuration list for PBXNativeTarget "iBeer" */;
 			buildPhases = (
+				52D7C33CF11161565311E654 /* [CP] Check Pods Manifest.lock */,
+				2266B67725E4B8CA0008F1D9 /* ShellScript */,
 				22BC954C25E46B520056D843 /* Sources */,
 				22BC954D25E46B520056D843 /* Frameworks */,
 				22BC954E25E46B520056D843 /* Resources */,
@@ -236,7 +389,8 @@
 			files = (
 				22BC956325E46B530056D843 /* LaunchScreen.storyboard in Resources */,
 				22BC956025E46B530056D843 /* Assets.xcassets in Resources */,
-				22BC955B25E46B520056D843 /* Main.storyboard in Resources */,
+				2266B63825E4A5800008F1D9 /* BeerItemTableViewCell.xib in Resources */,
+				2266B63625E4A5800008F1D9 /* BeerListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +410,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2266B67725E4B8CA0008F1D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#FOR M1 MACS\nif test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		52D7C33CF11161565311E654 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iBeer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22BC954C25E46B520056D843 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BC955825E46B520056D843 /* ViewController.swift in Sources */,
+				2266B63925E4A5800008F1D9 /* BeerListViewController.swift in Sources */,
+				2266B63425E4A5800008F1D9 /* BeerCoordinator.swift in Sources */,
+				2266B63725E4A5800008F1D9 /* BeerItemTableViewCell.swift in Sources */,
+				2266B65C25E4A71E0008F1D9 /* Config.swift in Sources */,
+				2266B66925E4ABED0008F1D9 /* BeerListViewModel.swift in Sources */,
+				2266B64E25E4A6490008F1D9 /* BeerListService.swift in Sources */,
+				2266B65625E4A6760008F1D9 /* BeerListProvider.swift in Sources */,
+				2266B5F925E498140008F1D9 /* Observable.swift in Sources */,
 				22BC955E25E46B520056D843 /* iBeer.xcdatamodeld in Sources */,
+				2266B64525E4A60C0008F1D9 /* NSObject+Extensions.swift in Sources */,
+				2266B64425E4A60C0008F1D9 /* UITableView+Extensions.swift in Sources */,
 				22BC955425E46B520056D843 /* AppDelegate.swift in Sources */,
+				2266B63E25E4A5BC0008F1D9 /* AppCoordinator.swift in Sources */,
 				22BC955625E46B520056D843 /* SceneDelegate.swift in Sources */,
+				2266B63525E4A5800008F1D9 /* BeerModel.swift in Sources */,
+				2266B67325E4B8650008F1D9 /* UIImage+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +508,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		22BC955925E46B520056D843 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22BC955A25E46B520056D843 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		22BC956125E46B530056D843 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,11 +637,14 @@
 		};
 		22BC957E25E46B530056D843 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB980D6B8E03C00E74AD984B /* Pods-iBeer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iBeer/Info.plist;
+				DEVELOPMENT_TEAM = 8LX7GAX692;
+				INFOPLIST_FILE = "$(SRCROOT)/iBeer/AppData/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,11 +658,14 @@
 		};
 		22BC957F25E46B530056D843 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495FBF037436A25F4B9875C9 /* Pods-iBeer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iBeer/Info.plist;
+				DEVELOPMENT_TEAM = 8LX7GAX692;
+				INFOPLIST_FILE = "$(SRCROOT)/iBeer/AppData/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,14 +1,14 @@
 //
-//  iBeerTests.swift
-//  iBeerTests
+//  SDKNetworkTests.swift
+//  SDKNetworkTests
 //
 //  Created by Felipe Andrade on 22/02/21.
 //
 
 import XCTest
-@testable import iBeer
+@testable import SDKNetwork
 
-class IBeerTests: XCTestCase {
+class SDKNetworkTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
