@@ -7,7 +7,20 @@
 		<key>SDKNetwork.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>22AF885225EB427400173C17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>22AF885B25EB427500173C17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

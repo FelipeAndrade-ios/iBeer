@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BeerItemCollectionViewCell" customModule="iBeer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="201"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="201"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QyC-Fd-an9">
+                        <rect key="frame" x="8" y="8" width="144" height="185"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="749" image="xmark.icloud" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Xb7-Vc-x9a">
+                                <rect key="frame" x="10" y="8.5" width="124" height="114.5"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25" scale="large" weight="medium"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Weiss Test" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IBy-Xo-m4B">
+                                <rect key="frame" x="10" y="128" width="124" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Wz0-SY-jn5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.5 % ABV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3T7-Bd-6MQ">
+                                <rect key="frame" x="20" y="155" width="104" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="20" id="Np0-wp-Eb9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.88235294117647056" blue="0.45882352941176469" alpha="0.79961713576158944" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="IBy-Xo-m4B" secondAttribute="trailing" constant="10" id="68x-Y3-Qcu"/>
+                            <constraint firstAttribute="trailing" secondItem="Xb7-Vc-x9a" secondAttribute="trailing" constant="10" id="B7z-7I-AV8"/>
+                            <constraint firstAttribute="trailing" secondItem="3T7-Bd-6MQ" secondAttribute="trailing" constant="20" id="DkP-AG-vJK"/>
+                            <constraint firstItem="IBy-Xo-m4B" firstAttribute="leading" secondItem="QyC-Fd-an9" secondAttribute="leading" constant="10" id="G3u-xZ-zED"/>
+                            <constraint firstItem="Xb7-Vc-x9a" firstAttribute="top" secondItem="QyC-Fd-an9" secondAttribute="top" constant="10" id="Zox-tq-HQQ"/>
+                            <constraint firstItem="IBy-Xo-m4B" firstAttribute="top" secondItem="Xb7-Vc-x9a" secondAttribute="bottom" constant="4" id="eRi-RU-7HD"/>
+                            <constraint firstItem="3T7-Bd-6MQ" firstAttribute="top" secondItem="IBy-Xo-m4B" secondAttribute="bottom" constant="2" id="hPr-mE-ozC"/>
+                            <constraint firstAttribute="bottom" secondItem="3T7-Bd-6MQ" secondAttribute="bottom" constant="10" id="iPJ-rC-m5U"/>
+                            <constraint firstItem="3T7-Bd-6MQ" firstAttribute="leading" secondItem="QyC-Fd-an9" secondAttribute="leading" constant="20" id="kQR-z5-6Cb"/>
+                            <constraint firstItem="Xb7-Vc-x9a" firstAttribute="leading" secondItem="QyC-Fd-an9" secondAttribute="leading" constant="10" id="r7H-cH-44w"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="QyC-Fd-an9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Mbv-n3-0B9"/>
+                <constraint firstAttribute="trailing" secondItem="QyC-Fd-an9" secondAttribute="trailing" constant="8" id="PRM-pJ-n95"/>
+                <constraint firstAttribute="bottom" secondItem="QyC-Fd-an9" secondAttribute="bottom" constant="8" id="eWg-hH-l6N"/>
+                <constraint firstItem="QyC-Fd-an9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="jpJ-JE-0tu"/>
+            </constraints>
+            <size key="customSize" width="160" height="201"/>
+            <connections>
+                <outlet property="beerAbv" destination="3T7-Bd-6MQ" id="mOA-2i-C6C"/>
+                <outlet property="beerImage" destination="Xb7-Vc-x9a" id="tTt-MG-5YA"/>
+                <outlet property="beerTitle" destination="IBy-Xo-m4B" id="Pur-PX-rse"/>
+                <outlet property="lottieView" destination="QyC-Fd-an9" id="zef-4l-VSM"/>
+            </connections>
+            <point key="canvasLocation" x="-86.956521739130437" y="61.272321428571423"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="xmark.icloud" catalog="system" width="128" height="88"/>
+    </resources>
+</document>

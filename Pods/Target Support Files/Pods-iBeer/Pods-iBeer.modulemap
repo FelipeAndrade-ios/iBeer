@@ -1,0 +1,6 @@
+module Pods_iBeer {
+  umbrella header "Pods-iBeer-umbrella.h"
+
+  export *
+  module * { export * }
+}

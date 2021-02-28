@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109DC40EA65A735223C00FE0996A90D3 /* SDKNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAABB470999B05339BFB9FBA83B1D9E9 /* SDKNetwork-dummy.m */; };
+		12BF231F7F9F5706C53F6AB6AB693C43 /* Codable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DC208ABB647F2D5E7E640F100EE94 /* Codable+Extensions.swift */; };
+		36F795DDC4AE76F5623E106F9B61E452 /* Pods-iBeer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4C4835C5B0377F2EF3872CE5D3C90B /* Pods-iBeer-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38E9671470932C4BA501ED1D65E635EC /* LocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5147F35D81D82AC4279D5BA9F357995E /* LocalRepository.swift */; };
+		51322635BC18C1E40685FFDA3B640613 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F32E12C26498158C7657EF1190171C /* Service.swift */; };
+		538F74ABE5F50E7C8B6F4512D76B7084 /* Pods-iBeer-iBeerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C9217ABA618DF2B747BF3C3E342F7 /* Pods-iBeer-iBeerTests-dummy.m */; };
+		5A6C1AFCDAC23BA701D4B22445B054DC /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8665B8296B2D16EAB1EF7D7F7DF2CF /* NSObject+Extension.swift */; };
+		6C37A62F16E1719F3FEE199ADF1A3072 /* DataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2596AF9A0151FE29167F6F5518D35D /* DataTask.swift */; };
+		6F9A61A8323F9BF264AEF0BF5FE664EA /* SDKCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E23B4A0612AFD04D7802986ABDE53068 /* SDKCommon-dummy.m */; };
+		76139700E55A801C52FEF003A663A7DF /* SDKCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5E1CD4D47A0112A5B0DCBBB06BF642 /* SDKCommon-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DE9773FD745F1D1DBF9EFD43B7580D1 /* List+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2060578B3A509AB82BA3A306418E32B4 /* List+Extensions.swift */; };
+		C0F30B3CC778307168DE7B84E78A13D8 /* Pods-iBeer-iBeerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B505DFA5845811B5BD8408C8C0D1FF5 /* Pods-iBeer-iBeerTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1A692B33487CA442BCCD0C903FAD4CF /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67A62A68F96A332708929D14903A105 /* Log.swift */; };
+		E563D48DBCBC4B4881992A44BB5FE955 /* SDKNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3870ED4E980370CA2FA9C251378B53C5 /* SDKNetwork-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9EE2BF49D90931E7A128BFF099CD67C /* Pods-iBeer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C80E6EA411AF9A9006988E60F3EAEB /* Pods-iBeer-dummy.m */; };
+		FA71AE7AA3EB308DC667C0F8CF65D089 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FEFBAE137029EF67D1092E79055027 /* Observable.swift */; };
+		FB23FFAE5768CE726DB004F98CE2E555 /* RequestSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE387749BD14499EAA9D94E140A9BFC3 /* RequestSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		435A5EF8D831A363490889A1202DB254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6F48DC9474C6B1F4320975E641D7AAF;
+			remoteInfo = SDKCommon;
+		};
+		84A2FE81FBAB691AA2CCBF49665B6998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6F48DC9474C6B1F4320975E641D7AAF;
+			remoteInfo = SDKCommon;
+		};
+		8BD83EB20F9BCE2CFF07614A6A943BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6F48DC9474C6B1F4320975E641D7AAF;
+			remoteInfo = SDKCommon;
+		};
+		A2E33B7F40454A7882FE08C3A6DB9F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7162F5BF3A0B6AE3D019F976D955CC63;
+			remoteInfo = SDKNetwork;
+		};
+		A92AF7AE3E26E1CEFC123CF0D3BB9162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7162F5BF3A0B6AE3D019F976D955CC63;
+			remoteInfo = SDKNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F32E12C26498158C7657EF1190171C /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = SDKNetwork/SDKNetwork/Service.swift; sourceTree = "<group>"; };
+		07EC7A58FE135D4A3D1D062E3CF6E8AE /* Pods-iBeer-iBeerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iBeer-iBeerTests.modulemap"; sourceTree = "<group>"; };
+		0B505DFA5845811B5BD8408C8C0D1FF5 /* Pods-iBeer-iBeerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iBeer-iBeerTests-umbrella.h"; sourceTree = "<group>"; };
+		0B8AFA87D08A81E2271E0D879C4C484D /* SDKNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKNetwork-prefix.pch"; sourceTree = "<group>"; };
+		1D71AA37BAAA481AC40AA59E24E8EE00 /* SDKCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKCommon.modulemap; sourceTree = "<group>"; };
+		2060578B3A509AB82BA3A306418E32B4 /* List+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "List+Extensions.swift"; path = "SDKCommon/List+Extensions.swift"; sourceTree = "<group>"; };
+		21FEFBAE137029EF67D1092E79055027 /* Observable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = SDKCommon/Observable.swift; sourceTree = "<group>"; };
+		3246753B98F2BDC2410FA643E0C80130 /* Pods-iBeer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iBeer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3383E661EE7EA049C5867B85B21F1819 /* libPods-iBeer-iBeerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iBeer-iBeerTests.a"; path = "libPods-iBeer-iBeerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3870ED4E980370CA2FA9C251378B53C5 /* SDKNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKNetwork-umbrella.h"; sourceTree = "<group>"; };
+		45D540231B228812AD489A492AB266D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		48E9C1D63E7D7D9D4D2693F97BCDB1CA /* Pods-iBeer-iBeerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iBeer-iBeerTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B2596AF9A0151FE29167F6F5518D35D /* DataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTask.swift; path = SDKNetwork/SDKNetwork/DataTask.swift; sourceTree = "<group>"; };
+		4B5DB4FE770FA79E48AD68C247D92F59 /* SDKNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKNetwork.debug.xcconfig; sourceTree = "<group>"; };
+		5147F35D81D82AC4279D5BA9F357995E /* LocalRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalRepository.swift; path = SDKCommon/LocalRepository.swift; sourceTree = "<group>"; };
+		65B2A569A024FF36351192FFB9FD9BA2 /* SDKCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKCommon.debug.xcconfig; sourceTree = "<group>"; };
+		7976EDDB3D0AF457CA766D4FED7FA8A1 /* SDKNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDKNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BA121250EF3393B5E822AC0F73D8295 /* Pods-iBeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iBeer.release.xcconfig"; sourceTree = "<group>"; };
+		81F60579C726593259B1A65C2C940FAF /* libSDKNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDKNetwork.a; path = libSDKNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A18CC5DBDB775B3775257C96DC392D /* SDKNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKNetwork.modulemap; sourceTree = "<group>"; };
+		9A138F57120BC44B5D5A555271A17AFD /* Pods-iBeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iBeer.debug.xcconfig"; sourceTree = "<group>"; };
+		9B5E1CD4D47A0112A5B0DCBBB06BF642 /* SDKCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKCommon-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7C80E6EA411AF9A9006988E60F3EAEB /* Pods-iBeer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iBeer-dummy.m"; sourceTree = "<group>"; };
+		AAABB470999B05339BFB9FBA83B1D9E9 /* SDKNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKNetwork-dummy.m"; sourceTree = "<group>"; };
+		AE5E73819097A8A4E5B3DAD3618BAD59 /* Pods-iBeer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iBeer.modulemap"; sourceTree = "<group>"; };
+		B264FD39FA2A1936711980B4DE8B3B98 /* libPods-iBeer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iBeer.a"; path = "libPods-iBeer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AF770174741ECD1B620CEFCCEF15CD /* Pods-iBeer-iBeerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iBeer-iBeerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B382D84479A58652D786589E5753A4EF /* Pods-iBeer-iBeerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iBeer-iBeerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B65DC9E5B9DF22B593B4BAD6EBC3DCE9 /* SDKCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKCommon-prefix.pch"; sourceTree = "<group>"; };
+		B67A62A68F96A332708929D14903A105 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = SDKNetwork/SDKNetwork/Log.swift; sourceTree = "<group>"; };
+		BB0B1912B7021EF5229A83E8FE1EC640 /* SDKNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKNetwork.release.xcconfig; sourceTree = "<group>"; };
+		BF8640E1E60103FA6B1983F3BEB8D084 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C3F33983E8AA6F5343B5F201FEF81FCC /* libSDKCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDKCommon.a; path = libSDKCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5611A7F00A25041F2E4A2E49DC76B1C /* Pods-iBeer-iBeerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iBeer-iBeerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C93C9217ABA618DF2B747BF3C3E342F7 /* Pods-iBeer-iBeerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iBeer-iBeerTests-dummy.m"; sourceTree = "<group>"; };
+		D22154B3C8B2CDD7045FD6A8B9D3D233 /* Pods-iBeer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iBeer-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC766109A9FDA97F70B95120AA5CCA0A /* SDKCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKCommon.release.xcconfig; sourceTree = "<group>"; };
+		DF0DC208ABB647F2D5E7E640F100EE94 /* Codable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Codable+Extensions.swift"; path = "SDKCommon/Codable+Extensions.swift"; sourceTree = "<group>"; };
+		E23B4A0612AFD04D7802986ABDE53068 /* SDKCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDKCommon-dummy.m"; sourceTree = "<group>"; };
+		EB4C4835C5B0377F2EF3872CE5D3C90B /* Pods-iBeer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iBeer-umbrella.h"; sourceTree = "<group>"; };
+		EE387749BD14499EAA9D94E140A9BFC3 /* RequestSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestSession.swift; path = SDKNetwork/SDKNetwork/RequestSession.swift; sourceTree = "<group>"; };
+		EE61DED21F201BDB8A58A6360CA8754B /* SDKCommon.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDKCommon.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF8665B8296B2D16EAB1EF7D7F7DF2CF /* NSObject+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Extension.swift"; path = "SDKCommon/NSObject+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39CBF8E4EC29CECC9BB567C8B5AEA8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414093E4652EB38B4F657421C0AD8FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B057CE46BA0FAA1D2F5B9718C94774B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C652CBFC57E9AD92619316A8F634589F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B9C15C1D78E9AFD7F8E8E9DCE91453B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8992B71812FEEB8864588BEE03368E60 /* Pods-iBeer */,
+				330CE50187E4DDC19D045F0ED1B67A5C /* Pods-iBeer-iBeerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0D4E684001FE1FCE29E9D1E4C9A3B634 /* SDKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				4B2596AF9A0151FE29167F6F5518D35D /* DataTask.swift */,
+				B67A62A68F96A332708929D14903A105 /* Log.swift */,
+				EE387749BD14499EAA9D94E140A9BFC3 /* RequestSession.swift */,
+				03F32E12C26498158C7657EF1190171C /* Service.swift */,
+				E092022ABD3B59B91CAFE841DA16498A /* Pod */,
+				40636D57CDC6469289E7F72C0EAEE256 /* Support Files */,
+			);
+			name = SDKNetwork;
+			path = ../SDKNetwork;
+			sourceTree = "<group>";
+		};
+		330CE50187E4DDC19D045F0ED1B67A5C /* Pods-iBeer-iBeerTests */ = {
+			isa = PBXGroup;
+			children = (
+				07EC7A58FE135D4A3D1D062E3CF6E8AE /* Pods-iBeer-iBeerTests.modulemap */,
+				B2AF770174741ECD1B620CEFCCEF15CD /* Pods-iBeer-iBeerTests-acknowledgements.markdown */,
+				B382D84479A58652D786589E5753A4EF /* Pods-iBeer-iBeerTests-acknowledgements.plist */,
+				C93C9217ABA618DF2B747BF3C3E342F7 /* Pods-iBeer-iBeerTests-dummy.m */,
+				0B505DFA5845811B5BD8408C8C0D1FF5 /* Pods-iBeer-iBeerTests-umbrella.h */,
+				C5611A7F00A25041F2E4A2E49DC76B1C /* Pods-iBeer-iBeerTests.debug.xcconfig */,
+				48E9C1D63E7D7D9D4D2693F97BCDB1CA /* Pods-iBeer-iBeerTests.release.xcconfig */,
+			);
+			name = "Pods-iBeer-iBeerTests";
+			path = "Target Support Files/Pods-iBeer-iBeerTests";
+			sourceTree = "<group>";
+		};
+		36A0E69A5F8DF0312018ACD33BB7EA3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D71AA37BAAA481AC40AA59E24E8EE00 /* SDKCommon.modulemap */,
+				E23B4A0612AFD04D7802986ABDE53068 /* SDKCommon-dummy.m */,
+				B65DC9E5B9DF22B593B4BAD6EBC3DCE9 /* SDKCommon-prefix.pch */,
+				9B5E1CD4D47A0112A5B0DCBBB06BF642 /* SDKCommon-umbrella.h */,
+				65B2A569A024FF36351192FFB9FD9BA2 /* SDKCommon.debug.xcconfig */,
+				DC766109A9FDA97F70B95120AA5CCA0A /* SDKCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/SDKCommon";
+			sourceTree = "<group>";
+		};
+		40636D57CDC6469289E7F72C0EAEE256 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90A18CC5DBDB775B3775257C96DC392D /* SDKNetwork.modulemap */,
+				AAABB470999B05339BFB9FBA83B1D9E9 /* SDKNetwork-dummy.m */,
+				0B8AFA87D08A81E2271E0D879C4C484D /* SDKNetwork-prefix.pch */,
+				3870ED4E980370CA2FA9C251378B53C5 /* SDKNetwork-umbrella.h */,
+				4B5DB4FE770FA79E48AD68C247D92F59 /* SDKNetwork.debug.xcconfig */,
+				BB0B1912B7021EF5229A83E8FE1EC640 /* SDKNetwork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/SDKNetwork";
+			sourceTree = "<group>";
+		};
+		573330BADE640D1F4BBD0C77C3AA161F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45D540231B228812AD489A492AB266D5 /* LICENSE */,
+				EE61DED21F201BDB8A58A6360CA8754B /* SDKCommon.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8992B71812FEEB8864588BEE03368E60 /* Pods-iBeer */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E73819097A8A4E5B3DAD3618BAD59 /* Pods-iBeer.modulemap */,
+				3246753B98F2BDC2410FA643E0C80130 /* Pods-iBeer-acknowledgements.markdown */,
+				D22154B3C8B2CDD7045FD6A8B9D3D233 /* Pods-iBeer-acknowledgements.plist */,
+				A7C80E6EA411AF9A9006988E60F3EAEB /* Pods-iBeer-dummy.m */,
+				EB4C4835C5B0377F2EF3872CE5D3C90B /* Pods-iBeer-umbrella.h */,
+				9A138F57120BC44B5D5A555271A17AFD /* Pods-iBeer.debug.xcconfig */,
+				7BA121250EF3393B5E822AC0F73D8295 /* Pods-iBeer.release.xcconfig */,
+			);
+			name = "Pods-iBeer";
+			path = "Target Support Files/Pods-iBeer";
+			sourceTree = "<group>";
+		};
+		8B9ACF42B487DE697E63E1316436F51E /* SDKCommon */ = {
+			isa = PBXGroup;
+			children = (
+				DF0DC208ABB647F2D5E7E640F100EE94 /* Codable+Extensions.swift */,
+				2060578B3A509AB82BA3A306418E32B4 /* List+Extensions.swift */,
+				5147F35D81D82AC4279D5BA9F357995E /* LocalRepository.swift */,
+				EF8665B8296B2D16EAB1EF7D7F7DF2CF /* NSObject+Extension.swift */,
+				21FEFBAE137029EF67D1092E79055027 /* Observable.swift */,
+				573330BADE640D1F4BBD0C77C3AA161F /* Pod */,
+				36A0E69A5F8DF0312018ACD33BB7EA3D /* Support Files */,
+			);
+			name = SDKCommon;
+			path = ../SDKCommon;
+			sourceTree = "<group>";
+		};
+		CB8DE817214959BE381928FC3F80B29E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B9ACF42B487DE697E63E1316436F51E /* SDKCommon */,
+				0D4E684001FE1FCE29E9D1E4C9A3B634 /* SDKNetwork */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CB8DE817214959BE381928FC3F80B29E /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				DDAF81349CF4286BE3F45D6B5ACB20A3 /* Products */,
+				0B9C15C1D78E9AFD7F8E8E9DCE91453B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDAF81349CF4286BE3F45D6B5ACB20A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B264FD39FA2A1936711980B4DE8B3B98 /* libPods-iBeer.a */,
+				3383E661EE7EA049C5867B85B21F1819 /* libPods-iBeer-iBeerTests.a */,
+				C3F33983E8AA6F5343B5F201FEF81FCC /* libSDKCommon.a */,
+				81F60579C726593259B1A65C2C940FAF /* libSDKNetwork.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E092022ABD3B59B91CAFE841DA16498A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF8640E1E60103FA6B1983F3BEB8D084 /* LICENSE */,
+				7976EDDB3D0AF457CA766D4FED7FA8A1 /* SDKNetwork.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		328ADF1D3D02CF4590B20E8F6D4E1822 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F795DDC4AE76F5623E106F9B61E452 /* Pods-iBeer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B36F243E48621E52E37F5C26C819A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76139700E55A801C52FEF003A663A7DF /* SDKCommon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC17FB3CE044EDFB84A88215EC43D37D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F30B3CC778307168DE7B84E78A13D8 /* Pods-iBeer-iBeerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6323B048244D07055BBD91E86B60714 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E563D48DBCBC4B4881992A44BB5FE955 /* SDKNetwork-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7162F5BF3A0B6AE3D019F976D955CC63 /* SDKNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9692B8F2CB9AB6232756552FC41148F3 /* Build configuration list for PBXNativeTarget "SDKNetwork" */;
+			buildPhases = (
+				F6323B048244D07055BBD91E86B60714 /* Headers */,
+				541794F742BCC04BEFED6DBE4BBEFCE1 /* Sources */,
+				414093E4652EB38B4F657421C0AD8FA4 /* Frameworks */,
+				36597911029E03502E53038F82D27016 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B21B66181519025440741FAF1BC9E54 /* PBXTargetDependency */,
+			);
+			name = SDKNetwork;
+			productName = SDKNetwork;
+			productReference = 81F60579C726593259B1A65C2C940FAF /* libSDKNetwork.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AEB7B86F0D28481B4812F941F81A3061 /* Pods-iBeer-iBeerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385377A071CD9EA6F707E074836E24F9 /* Build configuration list for PBXNativeTarget "Pods-iBeer-iBeerTests" */;
+			buildPhases = (
+				EC17FB3CE044EDFB84A88215EC43D37D /* Headers */,
+				80FE80E72D0E10D6830FC04DADA7201A /* Sources */,
+				39CBF8E4EC29CECC9BB567C8B5AEA8C1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B87ACAD83FFAFE1E4FDB546600B04017 /* PBXTargetDependency */,
+				147391329DAE78CF1489C3242F9D6C9C /* PBXTargetDependency */,
+			);
+			name = "Pods-iBeer-iBeerTests";
+			productName = "Pods-iBeer-iBeerTests";
+			productReference = 3383E661EE7EA049C5867B85B21F1819 /* libPods-iBeer-iBeerTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6F48DC9474C6B1F4320975E641D7AAF /* SDKCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C0059ACC7A513EC6C5F34BE779AA85 /* Build configuration list for PBXNativeTarget "SDKCommon" */;
+			buildPhases = (
+				C2B36F243E48621E52E37F5C26C819A7 /* Headers */,
+				9C3C62F0D969A3ADFA853ED2BC8509DB /* Sources */,
+				C652CBFC57E9AD92619316A8F634589F /* Frameworks */,
+				D1825DC501A74528FA49A65CC1739EBB /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKCommon;
+			productName = SDKCommon;
+			productReference = C3F33983E8AA6F5343B5F201FEF81FCC /* libSDKCommon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB936CC3D8F96A69761E36CFB67594C9 /* Pods-iBeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D4FF2601F74BD66D47ED6B07FFE1A4 /* Build configuration list for PBXNativeTarget "Pods-iBeer" */;
+			buildPhases = (
+				328ADF1D3D02CF4590B20E8F6D4E1822 /* Headers */,
+				B98DF74A3B7106F4C287AADF30675BB5 /* Sources */,
+				8B057CE46BA0FAA1D2F5B9718C94774B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2015955FB2E2FAEB4EC4B0B91EA6DAA9 /* PBXTargetDependency */,
+				391C3D8C49A4B9008C45D278F49AA163 /* PBXTargetDependency */,
+			);
+			name = "Pods-iBeer";
+			productName = "Pods-iBeer";
+			productReference = B264FD39FA2A1936711980B4DE8B3B98 /* libPods-iBeer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DDAF81349CF4286BE3F45D6B5ACB20A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB936CC3D8F96A69761E36CFB67594C9 /* Pods-iBeer */,
+				AEB7B86F0D28481B4812F941F81A3061 /* Pods-iBeer-iBeerTests */,
+				B6F48DC9474C6B1F4320975E641D7AAF /* SDKCommon */,
+				7162F5BF3A0B6AE3D019F976D955CC63 /* SDKNetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36597911029E03502E53038F82D27016 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SDKNetwork/SDKNetwork.modulemap",
+				"${PODS_ROOT}/Headers/Public/SDKNetwork/SDKNetwork-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SDKNetwork-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SDKNetwork/SDKNetwork.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SDKNetwork/SDKNetwork-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		D1825DC501A74528FA49A65CC1739EBB /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SDKCommon/SDKCommon.modulemap",
+				"${PODS_ROOT}/Headers/Public/SDKCommon/SDKCommon-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SDKCommon-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SDKCommon/SDKCommon.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SDKCommon/SDKCommon-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541794F742BCC04BEFED6DBE4BBEFCE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C37A62F16E1719F3FEE199ADF1A3072 /* DataTask.swift in Sources */,
+				C1A692B33487CA442BCCD0C903FAD4CF /* Log.swift in Sources */,
+				FB23FFAE5768CE726DB004F98CE2E555 /* RequestSession.swift in Sources */,
+				109DC40EA65A735223C00FE0996A90D3 /* SDKNetwork-dummy.m in Sources */,
+				51322635BC18C1E40685FFDA3B640613 /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FE80E72D0E10D6830FC04DADA7201A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538F74ABE5F50E7C8B6F4512D76B7084 /* Pods-iBeer-iBeerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3C62F0D969A3ADFA853ED2BC8509DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BF231F7F9F5706C53F6AB6AB693C43 /* Codable+Extensions.swift in Sources */,
+				7DE9773FD745F1D1DBF9EFD43B7580D1 /* List+Extensions.swift in Sources */,
+				38E9671470932C4BA501ED1D65E635EC /* LocalRepository.swift in Sources */,
+				5A6C1AFCDAC23BA701D4B22445B054DC /* NSObject+Extension.swift in Sources */,
+				FA71AE7AA3EB308DC667C0F8CF65D089 /* Observable.swift in Sources */,
+				6F9A61A8323F9BF264AEF0BF5FE664EA /* SDKCommon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98DF74A3B7106F4C287AADF30675BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9EE2BF49D90931E7A128BFF099CD67C /* Pods-iBeer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		147391329DAE78CF1489C3242F9D6C9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDKNetwork;
+			target = 7162F5BF3A0B6AE3D019F976D955CC63 /* SDKNetwork */;
+			targetProxy = A2E33B7F40454A7882FE08C3A6DB9F0A /* PBXContainerItemProxy */;
+		};
+		1B21B66181519025440741FAF1BC9E54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDKCommon;
+			target = B6F48DC9474C6B1F4320975E641D7AAF /* SDKCommon */;
+			targetProxy = 435A5EF8D831A363490889A1202DB254 /* PBXContainerItemProxy */;
+		};
+		2015955FB2E2FAEB4EC4B0B91EA6DAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDKCommon;
+			target = B6F48DC9474C6B1F4320975E641D7AAF /* SDKCommon */;
+			targetProxy = 8BD83EB20F9BCE2CFF07614A6A943BC4 /* PBXContainerItemProxy */;
+		};
+		391C3D8C49A4B9008C45D278F49AA163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDKNetwork;
+			target = 7162F5BF3A0B6AE3D019F976D955CC63 /* SDKNetwork */;
+			targetProxy = A92AF7AE3E26E1CEFC123CF0D3BB9162 /* PBXContainerItemProxy */;
+		};
+		B87ACAD83FFAFE1E4FDB546600B04017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDKCommon;
+			target = B6F48DC9474C6B1F4320975E641D7AAF /* SDKCommon */;
+			targetProxy = 84A2FE81FBAB691AA2CCBF49665B6998 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		173D82016E922E086BA2503DFBD3DE1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA121250EF3393B5E822AC0F73D8295 /* Pods-iBeer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iBeer/Pods-iBeer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274DC80159FE6580495B78F6294EA1CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC766109A9FDA97F70B95120AA5CCA0A /* SDKCommon.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDKCommon/SDKCommon-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = Headers/Public/SDKCommon/SDKCommon.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDKCommon;
+				PRODUCT_NAME = SDKCommon;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C1D71DDD42C4744840CFCB79ACA5015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65B2A569A024FF36351192FFB9FD9BA2 /* SDKCommon.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDKCommon/SDKCommon-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = Headers/Public/SDKCommon/SDKCommon.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDKCommon;
+				PRODUCT_NAME = SDKCommon;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4614583CF70635A7A0E1D35EB475C304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E9C1D63E7D7D9D4D2693F97BCDB1CA /* Pods-iBeer-iBeerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iBeer-iBeerTests/Pods-iBeer-iBeerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EFB85BA29F906306F8B9AE0B7F0A9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B5DB4FE770FA79E48AD68C247D92F59 /* SDKNetwork.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDKNetwork/SDKNetwork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = Headers/Public/SDKNetwork/SDKNetwork.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDKNetwork;
+				PRODUCT_NAME = SDKNetwork;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A54821F2E3519A4F8CCA8FFE7DD3C0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0B1912B7021EF5229A83E8FE1EC640 /* SDKNetwork.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDKNetwork/SDKNetwork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = Headers/Public/SDKNetwork/SDKNetwork.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDKNetwork;
+				PRODUCT_NAME = SDKNetwork;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C74E9D397823568F5A0C9397C9DFFAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5611A7F00A25041F2E4A2E49DC76B1C /* Pods-iBeer-iBeerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iBeer-iBeerTests/Pods-iBeer-iBeerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDFDAD87D93ADBF07A46A14992175823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A138F57120BC44B5D5A555271A17AFD /* Pods-iBeer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iBeer/Pods-iBeer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		385377A071CD9EA6F707E074836E24F9 /* Build configuration list for PBXNativeTarget "Pods-iBeer-iBeerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74E9D397823568F5A0C9397C9DFFAF3 /* Debug */,
+				4614583CF70635A7A0E1D35EB475C304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C0059ACC7A513EC6C5F34BE779AA85 /* Build configuration list for PBXNativeTarget "SDKCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1D71DDD42C4744840CFCB79ACA5015 /* Debug */,
+				274DC80159FE6580495B78F6294EA1CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9692B8F2CB9AB6232756552FC41148F3 /* Build configuration list for PBXNativeTarget "SDKNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFB85BA29F906306F8B9AE0B7F0A9E6 /* Debug */,
+				A54821F2E3519A4F8CCA8FFE7DD3C0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D4FF2601F74BD66D47ED6B07FFE1A4 /* Build configuration list for PBXNativeTarget "Pods-iBeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFDAD87D93ADBF07A46A14992175823 /* Debug */,
+				173D82016E922E086BA2503DFBD3DE1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

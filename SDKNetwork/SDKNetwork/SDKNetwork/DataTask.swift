@@ -20,13 +20,13 @@ public struct DataTask {
         for index in data ?? [:] {
             let parameter = index.key + "=" + (index.value as? String ?? "") + "&"
             finalString.append(contentsOf: parameter
-                                .addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "a")
+                                .addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")
         }
         
         return .urlEncoded(finalString)
     }
 
-    public static func httpBody<T: Codable>(_ data: T) -> RequestContent {
+    public static func httpBody<T: Encodable>(_ data: T) -> RequestContent {
         let jsonEncoder = JSONEncoder()
         do {
             return try .httpBody(jsonEncoder.encode(data))
@@ -36,7 +36,7 @@ public struct DataTask {
         }
     }
 
-    public static func httpAndBody<T: Codable>(urlEncoded: [String: Any]?, body: T) -> RequestContent {
+    public static func httpAndBody<T: Encodable>(urlEncoded: [String: Any]?, body: T) -> RequestContent {
         var finalString = "?"
         for index in urlEncoded ?? [:] {
             let parameter = index.key + "=" + (index.value as? String ?? "") + "&"
@@ -56,3 +56,6 @@ public struct DataTask {
         return .plain
     }
 }
+
+// For Tests
+extension DataTask.RequestContent: Equatable { }

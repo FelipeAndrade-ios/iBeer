@@ -21,3 +21,7 @@ class AppCoordinator {
         window.makeKeyAndVisible()
     }
 }
+// TODO: Uinit test 40%
+// TODO: UI Test on Main app
+// TODO: CI on git
+// TODO: Readme 5%

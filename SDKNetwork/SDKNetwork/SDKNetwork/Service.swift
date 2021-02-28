@@ -33,15 +33,14 @@ public protocol ServiceRequest {
 }
 
 open class Service<U: ServiceRequest> {
-    var requester: Request = Requester()
+    public var requester: Request = Requester()
     
     var timeout = Timeout.medium
     
     public init() {}
     
-    public func request<T: Codable>(_ flow: U,
-                                    model: T.Type,
-                                    completion: @escaping (Result<T, RequestError>, URLResponse?) -> Void) {
+    public func request<T: Decodable>(_ flow: U, model: T.Type,
+                                      completion: @escaping (Result<T, RequestError>, URLResponse?) -> Void) {
         guard let service = setupEnvirnment(flow) else {
             completion(.failure(.network), nil)
             return
@@ -93,13 +92,12 @@ open class Service<U: ServiceRequest> {
             default: break
             }
             return service
-        } else {
-            Log.defaultLogs(.requestFailed)
-            return nil
         }
+        Log.defaultLogs(.requestFailed)
+        return nil
     }
     
-    func decodeBody<T: Codable>(data: Data?, model: T.Type) -> T? {
+    func decodeBody<T: Decodable>(data: Data?, model: T.Type) -> T? {
         if let data = data {
             do {
                 let model = try JSONDecoder().decode(T.self, from: data)

@@ -12,6 +12,16 @@ enum DefaultLogs: String {
     case requestFailed
     case dataIsNull
 }
+var isTesting = false
+
+internal func print(_ string: String) {
+    if isTesting {
+        let url = URL(fileURLWithPath: "file.txt")
+        try? string.write(to: url, atomically: true, encoding: .utf8)
+    } else {
+        Swift.print(string)
+    }
+}
 
 class Log {
     static func defaultLogs(_ type: DefaultLogs, error: Error? = nil) {

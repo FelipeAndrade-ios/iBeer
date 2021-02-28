@@ -1,0 +1,6 @@
+framework module SDKCommon {
+  umbrella header "SDKCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

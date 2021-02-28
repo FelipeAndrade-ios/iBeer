@@ -11,5 +11,9 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.3.3'
   spec.ios.deployment_target  = '13.0'
   
-  spec.source_files       = 'SDKNetwork/SDKNetwork/**/*.swift'
+  
+  spec.dependency     'SDKCommon'
+  
+  spec.source_files  = 'SDKNetwork/SDKNetwork/**/*.swift'
+  
 end
