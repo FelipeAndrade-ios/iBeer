@@ -1,9 +1,10 @@
 # iBeer
-
->SDKNetwork Unit Tests Coverage: **92.9%**
->SDKCommon Unit Tests Coverage: **81.6%**
->iBeer Unit Tests Coverage: **76.9%**
->iBeer UI Tests Coverage: **63.2%**
+```
+SDKNetwork Unit Tests Coverage: **92.9%**
+SDKCommon Unit Tests Coverage: **81.6%**
+iBeer Unit Tests Coverage: **76.9%**
+iBeer UI Tests Coverage: **63.2%**
+```
 
 Projeto modularizado, utilizando Swift Package Manager para frameworks externos e Cocoapods para módulos internos. 
 
@@ -11,14 +12,18 @@ Projeto modularizado, utilizando Swift Package Manager para frameworks externos 
 
 clone o projeto, e depois rode esse comando na raiz do projeto
 
->pod install
+```
+> pod install
+```
 
 isso será suficiente para rodar o iBeer, porém para testarmos e alterarmos o SDKNetwork precisamos de mais uma etapa:
 
->cd SDKNetwork/SDKNetwork
->pod install
+```
+> cd SDKNetwork/SDKNetwork
+> pod install
+```
 
-isso irá construir as dependencias do SDKNetwork e assim o código poderá ser alterado. 
+isso irá construir as dependencias do SDKNetwork e assim o código poderá ser alterado. O `SDKNetwork` tem dependência com o `SDKCommon` então no momento está em um workspace separado. O seu .podspec está configurado e ele utiliza o CocoaPods também para sua dependência. O Workspace está na pasta mostrada acima.
 
 
 ## Comentários sobre o projeto
@@ -39,26 +44,25 @@ Para a primeira tela, utilizei o `UICollectionViewController` em vez de utilizar
 
 Para gerenciar a memória e o download das imagens na lista, utilizei o `KingFisher`, uma ferramenta que faz o cache das imagens e gerencia muito bem o download nas células. 
 
-Utilizei o lottie para dar um complemento na segunda tela, pois as informações não foram suficientes para cobrir a tela toda. Porém no iPhone SE é perceptível que não sobra muito espaço, porém graças ao auto-layout podemos programar uma forma de lidar com isso sem problemas. No caso a animação reduz de tamanho se não houver espaço suficiente, mas ainda mantendo seu aspect ratio. 
+Utilizei o `Lottie` para dar um complemento na segunda tela, pois as informações não foram suficientes para cobrir a tela toda. Porém no iPhone SE é perceptível que não sobra muito espaço, porém graças ao auto-layout podemos programar uma forma de lidar com isso sem problemas. No caso a animação reduz de tamanho se não houver espaço suficiente, mas ainda mantendo seu aspect ratio. 
 
-O observable de erros está implementado, porém ainda não construí uma view para mostrar ao usuário.
+O observable de erros está implementado, porém ainda não construí uma view para mostrar ao usuário. O Observable é uma derivação bem mais simples do que era o RXSwift, uma forma de ouvir mudanças em uma variável e trabalhar de acordo. 
 
-O SDKCommon é um framework muito pequeno para ser necessário neste momento do app, mas para sua escalabilidade, é interessante fazer as classes que são utilizadas pelo projeto e pelos módulos sejam separadas em seu módulo próprio para que reduza repetição de código e ainda melhora o desenvolvimento em grupo. 
+O `SDKCommon` é um framework muito pequeno para ser necessário neste momento do app, mas para sua escalabilidade, é interessante fazer as classes que são utilizadas pelo projeto e pelos módulos sejam separadas em seu módulo próprio para que reduza repetição de código e ainda melhora o desenvolvimento em grupo. 
 
-O SDKNetwork tem muito a melhor ainda, seu tratamento de erros é limitado. Mas também muito importante é um fluxo para que o código do app seja apenas o necessário para configurar essa request. Por isso, o fluxo consegue receber objetos genéricos para fazer seu parse e consegue trabalhar com mock para os testes. O tratamento de erros é o próximo passo. 
+O `SDKNetwork` tem muito a melhor ainda, seu tratamento de erros é limitado. Mas também muito importante é um fluxo para que o código do app seja apenas o necessário para configurar essa request. Por isso, o fluxo consegue receber objetos genéricos para fazer seu parse e consegue trabalhar com mock para os testes. O tratamento de erros é o próximo passo. 
 
-O Coordinator é uma ferramenta excelente, porém neste app não houve a necessidade de mostrar o gerenciamento de memória e fluxo que pode ser feito com ele, quem sabe outro projeto possa demonstrar melhor.
+O `Coordinator` é uma ferramenta excelente, porém neste app não houve a necessidade de mostrar o gerenciamento de memória e fluxo que pode ser feito com ele, quem sabe outro projeto possa demonstrar melhor.
 
 Os testes unitários estão testando as ViewModels, Coordinator e a classe de Requests. 
 
 O teste de UI está mostrando todas as funcionalidades do app, que são: 
-
 - Listar em uma collection as cervejas
 - Carregar dinamicamente as próximas quando chegar próximo ao fim
 - Buscar cervejas pelo nome
 - Ver os detalhes da cerveja clicada em outra tela
 
-A prática de utilizar Pods + Swift Package Manager é utilizada em alguns casos, porém neste projeto foi apenas para demonstração. E para isso, mostrei o ponto forte dos dois. O pod é excelente em gerenciar Frameworks privados, podendo até incluí-los no workspace sem afetar desempenho. Inclusive o pods é utilizado aqui para gerenciar o SDKNetwork com suas dependencias do SDKCommon. O Swift Package Manager é forte em capturar Frameworks disponíveis como *open source*, assim o fluxo de adicionar esse tipo de código fica muito rápido e nenhum comando é necessário. 
+A prática de utilizar Pods + Swift Package Manager é utilizada em alguns casos, porém neste projeto foi apenas para demonstração. E para isso, mostrei o ponto forte dos dois. O pod é excelente em gerenciar Frameworks privados, podendo até incluí-los no workspace sem afetar desempenho. Inclusive o pods é utilizado aqui para gerenciar o `SDKNetwork` com suas dependencias do `SDKCommon`. O Swift Package Manager é forte em capturar Frameworks disponíveis como *open source*, assim o fluxo de adicionar esse tipo de código fica muito rápido e nenhum comando é necessário. 
 
 
 ### TODO:
