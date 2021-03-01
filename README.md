@@ -5,6 +5,7 @@ SDKCommon Unit Tests Coverage: **81.6%**
 iBeer Unit Tests Coverage: **76.9%**
 iBeer UI Tests Coverage: **63.2%**
 ```
+<img width="384" alt="Captura de Tela 2021-03-01 às 02 29 40" src="https://user-images.githubusercontent.com/41647536/109455797-23a87f80-7a36-11eb-8e82-4c91459fa1fd.png"><img width="378" alt="Captura de Tela 2021-03-01 às 02 29 56" src="https://user-images.githubusercontent.com/41647536/109455810-286d3380-7a36-11eb-9824-12cf1271bb75.png">
 
 Projeto modularizado, utilizando Swift Package Manager para frameworks externos e Cocoapods para módulos internos. 
 
