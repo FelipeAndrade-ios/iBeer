@@ -55,7 +55,7 @@ class IBeerUITests: XCTestCase {
         app.swipeDown()
         app.swipeDown()
         app.navigationBars.searchFields["Search"].tap()
-        app.searchFields["Search"].typeText("AB:12")
+        app.searchFields["Search"].typeText("AB:1")
         
         expectation(for: NSPredicate(format: "exists == true"),
                     evaluatedWith: cell.staticTexts["AB:12"], handler: nil)

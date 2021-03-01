@@ -125,6 +125,7 @@ extension BeerListCollectionViewController: UISearchResultsUpdating {
             isSearching = false
         } else {
             isSearching = true
+            viewModel.searchObservable.value = []
             viewModel.searchBeers(name: textSearched)
         }
         collectionView.reloadData()
