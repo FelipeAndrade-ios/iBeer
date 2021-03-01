@@ -76,3 +76,4 @@ A prática de utilizar Pods + Swift Package Manager é utilizada em alguns casos
 
 - Deixar o search mais dinamico, utilizando tags para ver se a pesquisa é por Tipo, ID, Nome ou IBU por exemplo. 
 
+- Implementação do CI para rodar automaticamente a Build, os testes unitarios e de UI depois de qualquer commit.
